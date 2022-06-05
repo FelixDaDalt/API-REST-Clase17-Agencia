@@ -9,11 +9,11 @@ namespace API_REST_Clase17_Vehiculos_Clientes_Ventas_.Model
         public int VentasId { get; set; }
 
         [ForeignKey("Vehiculo")]
-        public int VehiculoId;
-        public Vehiculo? Vehiculo { get; set; }
+        public int VehiculoId{ get; set; }
+    public Vehiculo? Vehiculo { get; set; }
 
         [ForeignKey("Cliente")]
-        public int ClienteId;
+        public int ClienteId { get; set; }
         public Cliente? Cliente { get; set; }
 
         [Column(TypeName = "numeric(18,2)")]
