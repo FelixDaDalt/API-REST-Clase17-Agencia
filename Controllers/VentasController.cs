@@ -40,7 +40,7 @@ namespace API_REST_Clase17_Vehiculos_Clientes_Ventas_.Controllers
             return Ok(context.RepoVentas.Del(Id));
         }
 
-        [HttpPut("{Id}"]
+        [HttpPut("{Id}")]
         public IActionResult Update(Ventas update, int Id)
         {
             return Ok(context.RepoVentas.Update(update));

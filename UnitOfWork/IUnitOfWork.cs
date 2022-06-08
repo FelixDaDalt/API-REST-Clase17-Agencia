@@ -7,6 +7,7 @@ namespace API_REST_Clase17_Vehiculos_Clientes_Ventas_.UnitOfWork
         IRepoCliente RepoCliente { get; }
         IRepoVentas RepoVentas{ get; }
         IRepoVehiculo RepoVehiculo { get; }
+        IRepoUsuarios RepoUsuarios { get; }
         void save();
 
     }
